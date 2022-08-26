@@ -16,13 +16,13 @@ function MySkills() {
   return (
     <div className="skill-class" id="skills">
       <div className="skill-container">
-        <h1 className="text-white text-center">My Skill</h1>
+        <h1 className="text-white text-center pb-5">My Skill</h1>
         <div className="skill-content ">
           <Container>
             <Row className="mb-4 justify-content-center">
               {isSkills.map((res) => {
                 return (
-                  <Col xl={3} lg={4} md={4} sm={6} className="mb-4 justify-content-center">
+                  <Col xl={3} lg={4} md={4} sm={6} className="mb-4 justify-content-center" data-aos="zoom-in">
                     <Card >
                       <Card.Img variant="top" src={require("../../Assets/ImagesSplash" + res.source)}/>
                       <Card.Body>
