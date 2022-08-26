@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+:root {
+    --intro: font-family: 'Roboto Mono', monospace;
+}
+
+.hero-class {
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(9, 0, 0, 0.5)), url('../../Assets/Images/background2.jpg') no-repeat;
+    background-size: cover;
+}
+.hero-container {
+    color: white;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.hero-content-text span {
+    display: block;
+}
